@@ -1,7 +1,7 @@
 const imageFilenames = ['images/day1_1.jpg', 'images/day1_2.jpg']; // Update with the correct image file paths
 const hintFilenames = ['hints/day1_1.txt', 'hints/day1_2.txt']; // Update with the correct hint file paths
 
-let currentDay = 1; // Start with day 1
+let currentDay = 0; // Start with day 1
 
 const celebrityImage = document.getElementById('celebrity-image');
 const hintText = document.getElementById('hint-text');
