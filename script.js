@@ -1,5 +1,5 @@
-const imageFiles = ['day1_1.jpg', 'day1_2.jpg']; // Add more for each day
-const hintFiles = ['day1_1.txt', 'day1_2.txt']; // Add more for each day
+const imageFilenames = ['images/day1_1.jpg', 'images/day1_2.jpg']; // Update with the correct image file paths
+const hintFilenames = ['images/day1_1.txt', 'images/day1_2.txt']; // Update with the correct hint file paths
 
 let currentDay = 0; // Start with day 1
 
