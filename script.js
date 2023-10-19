@@ -20,8 +20,14 @@ function loadDay(day) {
 }
 
 submitButton.addEventListener('click', () => {
-    const playerGuess = guessInput.value.trim();
-    // Add logic to check the guess and display feedback
+    const playerGuess = guessInput.value.trim().toLowerCase(); // Convert the guess to lowercase for case-insensitive comparison
+    const correctGuess = "harry styles"; // The correct guess
+
+    if (playerGuess === correctGuess) {
+        alert('You Got It!');
+    } else {
+        alert('Sorry, that\'s not correct. Try again!');
+    }
 });
 
 nextHintButton.addEventListener('click', () => {
